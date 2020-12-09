@@ -62,10 +62,15 @@
     }
     .site-logo {
         margin-right: auto;
+        margin-bottom: auto;
     }
     .nav {
         margin-top: 0;
         align-self: center; /* This isn't actually centered and i don't know why. 19 minutes into Navigation with flexbox video */
+    }
+
+    .nav a {
+        font-size: 1.25em;
     }
     .nav li {
         margin-left: .65em;

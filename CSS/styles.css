@@ -5,7 +5,7 @@ ul {
     padding: 0;
 }
 
-/* Grid Layout
+/* Grid Layout */
 
 .grid-container {
     height: 100vh;
@@ -15,7 +15,7 @@ ul {
     grid-template-areas:
         "header nav"
         "main main"
-        "footer footer"
+        "footer footer";
 }
 
 header {
@@ -32,7 +32,7 @@ main {
 
 footer {
     grid-area: footer;
-} */
+}
 
 
 

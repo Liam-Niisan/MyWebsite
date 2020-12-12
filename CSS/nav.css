@@ -1,6 +1,6 @@
-/* flexbox */
+/* ---------- Flexbox Main Navigation Bar ---------- */
 
-/* Main Styles */
+/* -------- Main Styles -------- */
 
 .main-header,
 .nav {
@@ -36,7 +36,7 @@
     border-bottom-color: #52bab3;
 }
 
-/* Media Queries */
+/* --------------- Media Queries --------------- */
 
 @media (min-width: 769px) {
     .main-header {

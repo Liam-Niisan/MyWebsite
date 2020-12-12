@@ -1,9 +1,63 @@
+/* Basic Styles */
+
+/* Type Selectors */
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
+h2 {
+    font: ;
+    font-size: 3em;
+    color: ;
+}
+
+h3 {
+    font: ;
+    font-size: 1.25em;
+    color: ;
+}
+
+p {
+    font: ;
+    font-size: 1.25em;
+    color:
+}
+
+body {
+    margin: 0;
+}
+
+/* id Selectors */
+
+#main-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-top: solid 10px black;
+}
+
+/* Class Selectors */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Grid Layout */
 

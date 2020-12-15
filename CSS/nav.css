@@ -28,7 +28,8 @@
     font-weight: 300;
     text-align: center;
     padding: .4em;
-    border-bottom: 1px solid #ebecec
+    border-bottom: 1px solid #ebecec;
+    text-decoration: none;
 }
 
 .nav a:hover {

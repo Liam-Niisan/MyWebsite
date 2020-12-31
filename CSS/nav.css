@@ -13,8 +13,10 @@
 }
 
 .site-logo {
-    width: 50px;
+    width: 3.125em;
     align-self: center;
+    padding: 0.625em -1.875em;
+    margin: -1.875em 0 0 -0.9375em;
 }
 
 .nav {
@@ -41,11 +43,11 @@
 
 @media (min-width: 769px) {
     .main-header {
-        height: 200px;
+        height: 12.5em;
         justify-content: flex-end;
     }
     .site-logo {
-        width: 140px;
+        width: 8.75em;
     }
     .nav {
         margin-top: 3em;

@@ -15,11 +15,14 @@ ul {
 }
 
 h2 {
+    margin-bottom: 0;
     font-size: 3em;
     color: ;
 }
 
 h3 {
+    margin-top: 0;
+    margin-bottom: 3.125em;
     font-weight: normal;
     font-size: 1.25em;
     color: ;
@@ -44,11 +47,15 @@ p {
 .aboutme {
     text-align: left;
     width: 60%;  /* look here */
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .main-heading {
-    /* line-height: .1; */
+    
 }
+
 
 
 
@@ -69,7 +76,7 @@ p {
 
 /* ---------- Grid Layout ---------- */
 
-.grid-container {
+/* .grid-container {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 50px;
@@ -94,7 +101,7 @@ main {
 
 footer {
     grid-area: footer;
-}
+} */
 
 
 

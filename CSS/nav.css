@@ -10,13 +10,14 @@
 
 .main-header {
     padding-top: 2em;
+    background-color: purple;
 }
 
 .site-logo {
     width: 3.125em;
     align-self: center;
     padding: 0.625em -1.875em;
-    margin: -1.875em 0 0 -0.9375em;
+    margin: -2em 0 0 -1em;
 }
 
 .nav {
@@ -25,7 +26,7 @@
 
 .nav a {
     display:block;
-    color: #797e83;
+    color: black;
     font-size: 1.125em;
     font-weight: 300;
     text-align: center;
@@ -35,8 +36,8 @@
 }
 
 .nav a:hover {
-    color: #0b0b0b;
-    border-bottom-color: #52bab3;
+    color: white;
+    border-bottom-color: white;
 }
 
 /* --------------- Media Queries --------------- */
@@ -48,6 +49,7 @@
     }
     .site-logo {
         width: 8.75em;
+        justify-content: center;
     }
     .nav {
         margin-top: 3em;
@@ -62,6 +64,8 @@
 @media (min-width: 1025px) {
     .main-header {
         flex-direction: row;
+        margin-bottom: 0;
+        height: 4.3em;
     }
     .site-logo {
         margin-right: auto;
@@ -70,7 +74,7 @@
     }
     .nav {
         margin-top: 0;
-        align-self: center; /* This isn't actually centered and i don't know why. 19 minutes into Navigation with flexbox video */
+        align-self: center; 
     }
 
     .nav a {

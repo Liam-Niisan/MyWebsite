@@ -2,6 +2,9 @@
 
 /* ----- Type Selectors ----- */
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
@@ -40,6 +43,8 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+    background-color: purple;
+
 }
 
 /* ----- Class Selectors ----- */
@@ -51,14 +56,12 @@ p {
     margin: auto;
 }
 
-/* .arrow {
-    background-color: blue;
-    width: auto;
-    height: 500px;
-} */
-
 .main-heading {
     text-transform: uppercase;
+}
+
+.sticky-footer {
+    min-height: calc(100vh - 64px);
 }
 
 .main-heading {

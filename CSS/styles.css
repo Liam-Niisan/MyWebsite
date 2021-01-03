@@ -61,22 +61,47 @@ p {
 }
 
 .sticky-footer {
-    min-height: calc(100vh - 64px);
+    min-height: calc(100vh - 12.75em);
+}
+
+.contact-footer {
+    min-height: calc(100vh - 18.25em);
 }
 
 .main-heading {
     
 }
 
+/* -------- Contact Page Styles -------- */
 
+.contact-heading {
+    text-align: center;
+}
 
+.contact-form {
+    text-align: center;
+    margin-top: 5%;
+}
 
+#name,
+#email,
+#message,
+#submit {
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+}
 
+#name,
+#email {
+    height: 3em;
+    width: 40%;
+}
 
-
-
-
-
+#message {
+    height: 15em;
+    width: 50%;
+}
 
 
 

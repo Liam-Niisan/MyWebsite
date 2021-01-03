@@ -16,8 +16,7 @@
 .site-logo {
     width: 3.125em;
     align-self: center;
-    padding: 0.625em -1.875em;
-    margin: -2em 0 0 -1em;
+    margin-right: 6%; /* might want to comment this out */
 }
 
 .nav {
@@ -50,6 +49,7 @@
     .site-logo {
         width: 8.75em;
         justify-content: center;
+        margin-right: 0;
     }
     .nav {
         margin-top: 3em;
@@ -65,15 +65,22 @@
     .main-header {
         flex-direction: row;
         margin-bottom: 0;
-        height: 6.25em;
+        height: 6.27em;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 100;
     }
     .site-logo {
         margin-right: auto;
         margin-bottom: auto;
-        padding-left: 1em;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
     .nav {
         margin-top: 0;
+        margin-right: 10%;
         align-self: center; 
     }
 
@@ -83,6 +90,10 @@
     .nav li {
         margin-left: .65em;
         margin-right: .65em;
+    }
+
+    body {
+        padding-top: 100px;
     }
 }
 

@@ -95,12 +95,12 @@ p {
 #name,
 #email {
     height: 3em;
-    width: 40%;
+    width: 30%;
 }
 
 #message {
-    height: 15em;
-    width: 50%;
+    height: 18em;
+    width: 40%;
 }
 
 

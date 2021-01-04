@@ -23,8 +23,8 @@
                     </nav>
             </header>
             <main>
-                <form class="contact-form" action="contact.html" method="post">
-                    <h1>Contact</h1>
+                <form class="contact-form" id="myform" action="contact.html" method="post" onsubmit="return validation()">
+                    <h1>Contact Me</h1>
                     
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="user_name">
@@ -44,5 +44,6 @@
         <small>COPYRIGHT ROBERT BARHAM OFFICAL SITE 2021 &copy;</small>
      </footer>
     </div>
+    <script src="JS/contact_form.js"></script>
 </body>
 </html>

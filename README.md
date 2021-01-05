@@ -8,7 +8,7 @@ CSS Requirements
 
 1.) A navigation bar that expands and collapses properly at mobile and desktop sizes. 
 
-2.) I used flexbox to create the navigation bar. CSS 
+2.) I used flexbox to create the navigation bar.
 
 3.) On my blog page since I don't have any videos or social media to post yet I made a CSS animation of a loading spinner and bouncing dots to emulate an infinite loading screen.
 

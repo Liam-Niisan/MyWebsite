@@ -3,12 +3,12 @@ function validation() {
     var email = document.getElementById("email").value
     var message = document.getElementById("message").value
     
-     if(name.lenth <5) {
+     if(name.length <5) {
         alert('Please provide your name.')
         return false;
      }
 
-     if(message.lenth <10) {
+     if(message.length <10) {
         alert('Please provide a message.')
         return false;
      }
